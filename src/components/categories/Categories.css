@@ -1,0 +1,95 @@
+.CREATE__h2 {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    margin-left: 150px;
+}
+
+.createcategory__form {
+    display: flex;
+    width: 325px;
+    margin-left: 150px;
+}
+
+.form__input {
+    width: 230px;
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+    width: 100px;
+    background: #ff0000;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px 15px 15px 2px;
+}
+
+.bgraundimgg {
+    display: block;
+    padding: 20px;
+    margin: 20px auto;
+    margin-left: 150px;
+    width: 900px;
+    height: 555px;
+    background-image: url(../../images/bmw4.jpg);
+    backdrop-filter: blur(10px);
+}
+
+.textor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create__span {
+    display: flex;
+    width: 250px;
+    border: 1px solid #ddd;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.form__buuutn {
+    width: 80px;
+    position: relative;
+    height: 40px;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__buuutn::after {
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.form__buuutn::before {
+    transform-origin: center;
+    transition: 0.5s;
+}
+
+.form__buuutn:hover::before,
+.form__buuutn:hover::after {
+    transform: scale(0)
+}
+
+.form__buuutn:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+}

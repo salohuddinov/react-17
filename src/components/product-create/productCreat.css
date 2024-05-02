@@ -1,0 +1,42 @@
+.productcreate__bg {
+    background: #484848;
+    margin-left: 185px;
+    backdrop-filter: blur(10px);
+}
+
+.productcreate__bg h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 55px;
+    color: #fff;
+}
+
+.form__wrapper {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    background: #ddd;
+    gap: 14px;
+}
+
+
+.wrapper__input {
+    width: 200px;
+    height: 55px;
+    padding: 0 15px;
+    border: 1px solid #525252;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.form__files {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95px;
+}
